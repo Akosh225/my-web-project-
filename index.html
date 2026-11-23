@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мотоциклы Honda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Honda Moto</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#models">Модели</a></li>
+        <li><a href="#history">История</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <button id="theme-btn">Светлая тема</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Мотоциклы Honda</h1>
+      <p>Самый массовый мотоциклетный бренд в мире: от легендарного Super Cub до спортбайков Fireblade и туристического флагмана Gold Wing.</p>
+      <a class="cta" href="#models">Смотреть модели</a>
+    </section>
+
+    <section id="models">
+      <h2>Модели</h2>
+
+      <div class="filters">
+        <button class="filter active" data-filter="all">Все</button>
+        <button class="filter" data-filter="sport">Спорт</button>
+        <button class="filter" data-filter="touring">Туризм</button>
+        <button class="filter" data-filter="adventure">Эндуро</button>
+        <button class="filter" data-filter="city">Городские</button>
+      </div>
+
+      <div class="grid">
+        <article class="card" data-category="sport">
+          <span class="tag">Спорт</span>
+          <h3>CBR1000RR-R Fireblade</h3>
+          <p>Флагманский суперспорт, созданный на опыте гоночной программы Honda. Линейка Fireblade существует с 1992 года.</p>
+        </article>
+
+        <article class="card" data-category="sport">
+          <span class="tag">Спорт</span>
+          <h3>CB650R</h3>
+          <p>Неоклассический нейкед с четырёхцилиндровым мотором: лёгкий, яркий и понятный для повседневной езды.</p>
+        </article>
+
+        <article class="card" data-category="touring">
+          <span class="tag">Туризм</span>
+          <h3>Gold Wing</h3>
+          <p>Флагман для дальних поездок с 1975 года. Комфорт, электроника и оппозитный шестицилиндровый двигатель.</p>
+        </article>
+
+        <article class="card" data-category="adventure">
+          <span class="tag">Эндуро</span>
+          <h3>Africa Twin (CRF1100L)</h3>
+          <p>Приключенческий мотоцикл, наследник модели 1988 года. Подходит и для асфальта, и для бездорожья.</p>
+        </article>
+
+        <article class="card" data-category="adventure">
+          <span class="tag">Эндуро</span>
+          <h3>CRF450R</h3>
+          <p>Кроссовый мотоцикл для соревнований: лёгкая рама, мощный одноцилиндровый двигатель.</p>
+        </article>
+
+        <article class="card" data-category="city">
+          <span class="tag">Городские</span>
+          <h3>Super Cub</h3>
+          <p>Самый массовый мотоцикл в истории, выпускается с 1958 года. Простота, надёжность и экономичность.</p>
+        </article>
+
+        <article class="card" data-category="city">
+          <span class="tag">Городские</span>
+          <h3>Rebel 500 / 1100</h3>
+          <p>Современные круизеры с низким сиденьем и минималистичным стилем, удобные в городе и на трассе.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="history">
+      <h2>История</h2>
+      <div class="timeline">
+        <div class="event"><strong>1948</strong><span>Соитиро Хонда основывает компанию Honda Motor Co.</span></div>
+        <div class="event"><strong>1958</strong><span>Выходит Super Cub, который станет самым массовым мотоциклом в мире.</span></div>
+        <div class="event"><strong>1975</strong><span>Дебют туристического Gold Wing.</span></div>
+        <div class="event"><strong>1988</strong><span>Появляется Africa Twin (XRV650), вдохновлённая ралли Париж — Дакар.</span></div>
+        <div class="event"><strong>1992</strong><span>Представлен CBR900RR Fireblade, изменивший представление о спортбайках.</span></div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты</h2>
+      <div class="card">
+        Неофициальный информационный сайт о мотоциклах Honda.<br>
+        Email: example@mail.com<br>
+        Телефон: +7 000 000 00 00
+      </div>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Honda Moto — фан-сайт, не является официальным ресурсом Honda</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
